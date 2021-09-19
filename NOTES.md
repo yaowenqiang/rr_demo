@@ -6,3 +6,8 @@
 
 > rr record ./main
 > rr replay
+
+> $sudo apt-get install linux-tools-common linux-tools-generic linux-tools-`uname -r`
+> sudo sysctl kernel.perf_event_paranoid=1
+
+
